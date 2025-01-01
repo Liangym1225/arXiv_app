@@ -15,7 +15,7 @@ https://github.com/user-attachments/assets/cb415320-4fa5-4358-966d-1e4284181300
 
 1. **Fetch Papers**
   * Retrieves papers from arXiv within a specific category published in the last 24 hours.
-2. **Relevance Calculation with Language Model**
+2. **Relevance Calculation with a Language Model**
   * Uses a pretrained text embedding model (`jinaai/jina-embeddings-v3`) to generate embeddings for paper abstracts.
   * Calculates cosine similarity between fetched papers and predefined reference texts.
   * Sorts papers by relevance score.
