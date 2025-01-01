@@ -1,7 +1,7 @@
 # ArXiv Paper Management Tool
 
 
-This project helps researchers stay updated with the daily influx of papers published on arXiv. It includes:
+This project helps researchers stay updated with the daily papers published on arXiv. It includes:
 * A backend to fetch and rank papers by relevance using an LLM.
 * A frontend to view paper titles, abstracts, and relevance scores
 * An Integration with Notion for easy organization
