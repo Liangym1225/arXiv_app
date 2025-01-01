@@ -13,14 +13,14 @@ https://github.com/user-attachments/assets/cb415320-4fa5-4358-966d-1e4284181300
 
 # Features
 
-1. Fetch Papers
+1. **Fetch Papers**
   * Retrieves papers from arXiv within a specific category published in the last 24 hours.
-2. Relevance Calculation
-  * Uses a pretrained text embedding model (jinaai/jina-embeddings-v3) to generate embeddings for paper abstracts.
+2. **Relevance Calculation with Language Model**
+  * Uses a pretrained text embedding model (`jinaai/jina-embeddings-v3`) to generate embeddings for paper abstracts.
   * Calculates cosine similarity between fetched papers and predefined reference texts.
   * Sorts papers by relevance score.
-3. Notion Integration
+3. **Notion Integration**
   * Adds selected papers to a Notion database via the Notion API.
-4. Web UI
+4. **Web UI**
   * Displays titles, abstracts, and relevance scores of fetched papers.
   * Allows users to add papers to Notion with a single click.
