@@ -39,7 +39,8 @@ Install Pytorch, Transformers
 Create `.env` with your notion api token as '/backend/.env.sample'
 ```
 cd arXiv_app
-python -m uvicorn backend.main:app --reload
+cd backend
+python -m uvicorn main:app --reload
 ```
 ```
 npm install
