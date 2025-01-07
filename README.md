@@ -36,7 +36,7 @@ https://github.com/user-attachments/assets/a188dc4b-ce54-4f58-9e41-4ee245c95661
 git clone https://github.com/Liangym1225/arXiv_app.git
 ```
 Install Pytorch, Transformers  
-Create `.env` with your notion api token as '/backend/.env.sample'
+Create `.env` with your notion api token as `/backend/.env.sample`
 ```
 cd arXiv_app
 cd backend
